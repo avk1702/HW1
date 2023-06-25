@@ -12,7 +12,7 @@ public class HW1 {
             int num2 = scanner.nextInt();
             int result = num1 / num2;
             System.out.println("Результат деления числа " + num1 + " на число " + num2 + " равен " + result);
-            } catch (ArithmeticException e) {
+        } catch (ArithmeticException e) {
             System.out.println("Деление на ноль недопустимо"); 
             }
             System.out.println("Завершение работы"); 
